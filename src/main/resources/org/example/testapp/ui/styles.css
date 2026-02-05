@@ -1,0 +1,158 @@
+
+/*Стили для Диалогового окна*/
+.rounded-input {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: black;
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-alignment: CENTER;
+    -fx-padding: 4 10 4 10;
+}
+
+.combo-box-rounded {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: black;
+    -fx-background-color: white;
+    -fx-alignment: CENTER;
+}
+
+/* Кнопка стрелки */
+.combo-box-rounded .arrow-button {
+    -fx-background-color: transparent;
+}
+
+/* Текст внутри выпадающего списка */
+.combo-box-rounded .list-cell {
+    -fx-alignment: CENTER;
+    -fx-padding: 4 10 4 10;
+}
+
+.rounded-input:focused, .combo-box-rounded:focused {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0;
+}
+
+/* Стили для кнопок */
+.flat-button {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-min-width: 100px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+.flat-button:hover { -fx-background-color: #f0f0f0; }
+.flat-button:pressed { -fx-background-color: #e0e0e0; }
+
+
+
+
+/* Внешний контейнер таблицы */
+.table-view {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+
+
+    -fx-snaps-to-pixel: true;
+
+    -fx-border-color: black;
+    -fx-border-width: 1px 0 0 1px;
+
+    -fx-fixed-cell-size: 30px;
+}
+
+/* Фон области прокрутки  */
+.table-view .virtual-flow .clipped-container {
+    -fx-background-color: white;
+}
+
+/*  Фон за шапкой */
+.table-view .column-header-background {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent transparent black transparent;
+    -fx-border-width: 0 0 1px 0;
+}
+
+/* "Filler" справа от заголовков */
+.table-view .column-header-background .filler {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-border-color: transparent transparent black transparent;
+    -fx-border-width: 0 0 1px 0;
+}
+
+/* Заголовки колонок */
+.table-view .column-header {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-size: 40px;
+
+    -fx-border-color: black;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 0 10px 0 10px;
+    -fx-font-weight: normal;
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: CENTER;
+}
+
+/* Ячейки с данными */
+.table-cell {
+    -fx-text-fill: black;
+    -fx-alignment: CENTER;
+    -fx-background-insets: 0;
+    -fx-padding: 0 5px 0 5px;
+
+
+    -fx-border-color: black;
+    -fx-border-width: 0 1 1 0;
+
+    -fx-snaps-to-pixel: true;
+}
+
+/* Строки (фон) */
+.table-row-cell {
+    -fx-background-insets: 0;
+    -fx-background-color: white;
+    -fx-border-width: 0; /* Строка сама границы не рисует, рисуют ячейки */
+}
+
+.table-row-cell:odd { -fx-background-color: white; }
+.table-row-cell:even { -fx-background-color: white; }
+
+/* Выделение */
+.table-view:focused .table-row-cell:selected,
+.table-row-cell:selected {
+    -fx-background-color: #dddddd;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: black;
+
+    -fx-border-color: black;
+    -fx-border-width: 0 1 1 0;
+}
+
+
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+
+.table-row-cell:empty .table-cell {
+    -fx-border-color: black;
+    -fx-border-width: 0 1 1 0;
+}
+
+
+.table-view .column-header:focus {
+     -fx-background-color: white;
+}

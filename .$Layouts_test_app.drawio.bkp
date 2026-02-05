@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1042" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="hnAePmDhPsHuiflxxYUw-0" value="User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="120" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hnAePmDhPsHuiflxxYUw-1" value="+ User(id, login, acc_lvl, password, date_c, date,_m);&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getName()&lt;/div&gt;&lt;div&gt;+ getLogin()&lt;/div&gt;&lt;div&gt;....&lt;/div&gt;&lt;div&gt;+getDate_c();&lt;/div&gt;&lt;div&gt;+setName();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+setLvl...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+SetDate_c();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-name;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;-date_m&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="hnAePmDhPsHuiflxxYUw-0">
+          <mxGeometry y="26" width="200" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="hnAePmDhPsHuiflxxYUw-4" value="Enum Access_lvl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="120" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hnAePmDhPsHuiflxxYUw-9" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;pre&gt;&lt;pre tabindex=&quot;0&quot; style=&quot;background-color:#fff;color:#24292e&quot; class=&quot;shiki github-light shiki-code-block&quot;&gt;&lt;code class=&quot;whitespace-pre-wrap break-words&quot;&gt;&lt;span class=&quot;line&quot;&gt;&lt;span style=&quot;color:#005CC5&quot;&gt;-GUEST&lt;/span&gt;(&lt;span style=&quot;color:#005CC5&quot;&gt;0&lt;/span&gt;, &lt;span style=&quot;color:#032F62&quot;&gt;&quot;Гость&quot;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span style=&quot;color:#005CC5&quot;&gt;-USER&lt;/span&gt;(&lt;span style=&quot;color:#005CC5&quot;&gt;1&lt;/span&gt;, &lt;span style=&quot;color:#032F62&quot;&gt;&quot;Пользователь&quot;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span style=&quot;color:#005CC5&quot;&gt;-DEVELOPER&lt;/span&gt;(&lt;span style=&quot;color:#005CC5&quot;&gt;2&lt;/span&gt;, &lt;span style=&quot;color:#032F62&quot;&gt;&quot;Разработчик&quot;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span style=&quot;color:#005CC5&quot;&gt;-ADMIN&lt;/span&gt;(&lt;span style=&quot;color:#005CC5&quot;&gt;3&lt;/span&gt;, &lt;span style=&quot;color:#032F62&quot;&gt;&quot;Администратор&quot;&lt;/span&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;- int level;&lt;div&gt;+String getLevel();&lt;/div&gt;&lt;div&gt;+setLvl(int level);&lt;/div&gt;&lt;div&gt;+fromInt();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hnAePmDhPsHuiflxxYUw-4">
+          <mxGeometry y="26" width="180" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="hnAePmDhPsHuiflxxYUw-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;DAO layout&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="334" y="30" width="146" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
