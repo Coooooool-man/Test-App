@@ -1,6 +1,6 @@
 package org.example.testapp.service;
 
-import org.example.testapp.dao.impl.UserDAO;
+import org.example.testapp.dao.UserDAO;
 import org.example.testapp.model.AccessLvl;
 import org.example.testapp.model.User;
 import org.junit.jupiter.api.Test;

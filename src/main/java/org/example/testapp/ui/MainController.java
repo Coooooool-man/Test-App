@@ -11,7 +11,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import org.example.testapp.dao.impl.UserDAOImpl;
+import org.example.testapp.dao.UserDAOImpl;
 import org.example.testapp.model.User;
 import org.example.testapp.service.UserService;
 

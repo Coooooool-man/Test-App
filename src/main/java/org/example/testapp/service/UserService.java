@@ -1,6 +1,6 @@
 package org.example.testapp.service;
 
-import org.example.testapp.dao.impl.UserDAO;
+import org.example.testapp.dao.UserDAO;
 import org.example.testapp.model.User;
 import org.mindrot.jbcrypt.BCrypt;
 import java.sql.Date;
